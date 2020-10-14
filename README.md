@@ -1,2 +1,2 @@
 ### Acess the site on
-https://torieloreginal.github.io/scoreboard-web/
+https://torieloreginal.github.io/glowy-clock/
