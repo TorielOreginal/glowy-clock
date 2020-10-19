@@ -1,23 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
 
 *{
-    background-color: black;
-    color: rgb(255, 230, 0);
+    font-family: Sansita Swashed;
 }
 
 body, html{
-    height: 98%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
 
 body{
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
-#clock{
-    font-size: 100px;
-    text-shadow: 0px 0px 30px rgb(255, 230, 0);;
+h1, p{
+    color: gold;
+    text-shadow: 0px 0px 30px gold;
+}
+
+h1{
+    font-size: 125px;
+    margin: 10px;
+}
+
+p{
+    font-size: 30px;
 }
