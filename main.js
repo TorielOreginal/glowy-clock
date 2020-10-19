@@ -1,6 +1,8 @@
-function clock(){
-    const clock = document.getElementById("clock")
-    clock.innerText = `${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`
-}
+setInterval(() => {
+    const date = document.getElementById('date')
+    const clock = document.getElementById('clock')
 
-setInterval(clock, 1000)
+    date.innerText = `${new Date().getDate()}/${new Date().getMonth() + 1}/${new Date().getFullYear()}`
+    clock.innerText = `${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`
+
+}, 1000)
