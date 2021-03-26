@@ -1,2 +1,2 @@
 ### Acess the site on
-https://torieloreginal.github.io/glowy-clock/
+https://renan4nandes.github.io/glowy-clock/
